@@ -2,34 +2,18 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Novogenia offers APIs with which you can create new customers, edit the customer information and query the information. You can track the status of the orders and if available, download the report. You can also inquire whether our products are available.
 
-## Getting Started
+# API Reference
 
-Get started by **creating a new site**.
+The Novogenia Gateway API is organised around REST. Our API has predictable resource-oriented URLs, accepts form-encoded request bodies, returns JSON-encoded responses.
 
-Or **try Docusaurus immediately** with **[new.docusaurus.io](https://new.docusaurus.io)**.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npx @docusaurus/init@latest init my-website classic
+```http request title="BASE URL"
+https://order-gateway.novogenialab.com/api/
 ```
 
-## Start your site
 
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+## Not a Developer?
+Don't worry, in our **[Dashboard](https://order-gateway.novogenialab.com/sign-in)**, you can work with our APIs without coding.

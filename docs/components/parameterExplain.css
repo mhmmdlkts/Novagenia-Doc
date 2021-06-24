@@ -1,0 +1,73 @@
+code.parameter {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+code.dataTyp {
+    background-color: transparent;
+    border: none;
+    opacity: 0.7;
+}
+
+code.required {
+    color: #e0994c;
+    background-color: transparent;
+    border: none;
+}
+
+code.optional {
+    color: #32ad30;
+    background-color: transparent;
+    border: none;
+}
+
+code.possible-values {
+    color: #ad305c;
+    background-color: transparent;
+    border: none;
+}
+
+table.parameter {
+    margin: 10px 0;
+}
+
+tr.parameter {
+    padding: 0;
+    border: 0px solid transparent;
+}
+
+div.hidden {
+    display: none;
+}
+
+td.values {
+    width: 300px;
+}
+
+tr.parameter:nth-child(even) {
+    background: transparent;
+}
+
+tr.parameter:nth-child(odd) {
+    background: transparent;
+}
+
+td.parameter {
+    padding: 0;
+    text-align: left;
+    vertical-align: top;
+    border: 0px solid transparent;
+}
+
+div.parameter {
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+}
+
+tr.api {
+    border: 0px solid transparent;
+}
+
+td.api {
+    padding-left: 0;
+    border: 0px solid transparent;
+}

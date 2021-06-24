@@ -8,28 +8,25 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+          Novogenia offers an <code>API</code> service that you can easily and quickly integrate into your systems.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Well documented',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+          The APIs you need are clearly documented and illustrated with code <code>examples</code>.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Everything you need',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+          Everything you do via the dashboard you can also do with the API's.
       </>
     ),
   },
