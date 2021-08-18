@@ -19,7 +19,7 @@ module.exports = {
   tagline: 'Novogenia Gateway',
   url: 'https://order-gateway.novogenialab.com/',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   themeConfig: {
@@ -30,10 +30,6 @@ module.exports = {
         src: 'img/docusaurus.png',
       },
       items: [
-        {
-          type: 'localeDropdown',
-          position: 'right',
-        },
       ]
     },
     footer: {
