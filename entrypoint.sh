@@ -1,2 +1,2 @@
-cd /home/project
-npm run start
+cd /home/project/build
+npm run serve
